@@ -15,4 +15,8 @@ document.querySelector(".menu-toggle").addEventListener("click", function () {
     top.style.background = "unset"
     headButton.style.display = "block"
   }
+  if (window.screen.width < "768") {
+    menuToggle.style.marginTop = "21rem"
+    menuToggle.style.marginRight = "14rem"
+  }
 })

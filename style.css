@@ -1276,7 +1276,6 @@ footer a {
 @media (max-width: 768px) {
   body {
     margin: 0 auto;
-    height: 6500px;
   }
 
   header .logo {
@@ -1776,25 +1775,28 @@ footer a {
   }
 
   @media (max-width: 360px) {
-    body {
-      padding: 5px;
-    }
-
     header {
-      width: 100%;
-    }
-
-    .top {
-      height: 706px;
-    }
-
-    .menu-toggle {
-      margin-right: 2rem;
-    }
-
-    .hero {
       width: 360px;
-      height: 650px;
+    }
+
+    header nav {
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+      margin: 0;
+      width: 400;
+    }
+
+    header .menu {
+      right: -75px;
+      margin: 0;
+    }
+
+    header .header-btn {
+      margin-top: 250px;
+      margin-right: 314px;
+      width: 20%;
+      padding-right: 15px;
     }
 
     .hero .left {
@@ -1908,6 +1910,14 @@ footer a {
     .benefits .card-container {
       width: 360px;
       height: 1158px;
+    }
+
+    .benefits .card:hover {
+      .card:hover {
+        width: 250px;
+        height: 320px;
+        background-color: #e1e7ef;
+      }
     }
 
     .banner {
